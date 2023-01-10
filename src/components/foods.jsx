@@ -1,12 +1,13 @@
 import React from "react";
+import styles from "../styles/Foods.module.css"
 
-const foods = () => {
+const Foods = () => {
     return (
-        <div>foods</div>
+        <div>fosdasdods</div>
     )
 }
 
-export default foods
+export default Foods
 
 
 

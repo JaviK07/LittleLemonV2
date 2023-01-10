@@ -1,13 +1,10 @@
 import React from "react";
-
+import styles from "../styles/Home.module.css"
+import Navbar from "../components/Navbar.jsx";
 
 function Home () {
     return (
-        <div>Lorem ipsum dolor sit amet consecte
-            tur adipisicing elit. Eius hic corporis sit temporib
-            us reprehenderit eum debitis, accusamus ab consectetur eligen
-            di, natus exercitationem repellat eaque, earum dolores. Inve
-            ntore eaque accusantium minima.</div>
+        <div className={styles.Home}> <Navbar /> </div>
     )
 }
 
