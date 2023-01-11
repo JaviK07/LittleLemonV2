@@ -1,17 +1,33 @@
 .Navbar{
-    height: 50px;
+    height: 100px;
     background-color: grey;
 }
 .navContainer{
-    background-color: red;
-    height: ;
+    display: flex;
+    align-items: center;
+    height: 100px ;
+    justify-content: space-between;
 }
-.logo{
+.logoName{
+    align-items: center;
+    
+    display: flex;
+}
 
+.lemonLogo{
+    height: 70px;
+    width: 70px;
+  
 }
+
 .navItems{
-
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: red;
 }
 .navButton{
     color: blue;
+    padding-left: ;
 }
