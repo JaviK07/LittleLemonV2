@@ -1,0 +1,100 @@
+.mainLogo{
+    width: 75%;
+    height: 810px;
+    background-image: url(../Images/chef.jpg);
+	background-size:cover;
+    filter: saturate(1.2) ;
+    background-position: center center;
+}
+.mainSpeech{
+    display: flex;
+    justify-content: flex-end;
+    height: 70%;
+    align-items: center;
+    margin-right: 25%;
+  
+}
+.Main{
+    display: flex;
+
+}
+.offersContainer{
+    width: 25%;
+
+    background-color: #CC923B;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.offer1{
+    background-image: url(../Images/greeksalad.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-color: #CC923B;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 1000;
+    
+}
+.offer2{
+    background-color: #CC923B;
+    height: 25%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 1000;
+    
+}
+.offer3{
+    background-color: #CC923B;
+    width: 75%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 1000;
+}
+
+.mainSpeech_div{
+    background-color: #D3D5D7;
+    color: #321325;
+    font-weight: 500;
+    border-radius: 30%;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: .85;
+    user-select: none;
+}
+.chicken{
+    height: 60%;
+    width: 100%;
+    margin-top: 7px;
+}
+.sandwich{
+    height: 60%;
+    width: 100%;
+    margin-top: 7px;
+
+}
+.greek{
+    height: 100%;
+    width: 100%;
+    margin-top: 7px;
+}
+.parrafo{
+    font-weight: 500;
+    font-size: .8em;
+}
