@@ -16,11 +16,9 @@
 }
 .Main{
     display: flex;
-
 }
 .offersContainer{
     width: 25%;
-
     background-color: #CC923B;
     display: flex;
     align-items: center;
@@ -35,36 +33,40 @@
     background-color: #CC923B;
     display: flex;
     justify-content: center;
-    width: 75%;
+    width: 85%;
     height: 25%;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    font-weight: 1000;
-    
+    font-weight: 1000;   
 }
 .offer2{
+    background-image: url(../Images/sandwich.jpg);
+    background-position: center center;
+    background-size:cover;
     background-color: #CC923B;
-    height: 25%;
-    width: 75%;
     display: flex;
     justify-content: center;
+    width: 85%;
+    height: 25%;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    font-weight: 1000;
-    
+    font-weight: 1000;   
 }
 .offer3{
+    background-image: url(../Images/pollo.jpg);
+    background-position: center center;
+    background-size:cover;
     background-color: #CC923B;
-    width: 75%;
-    height: 25%;
     display: flex;
     justify-content: center;
+    width: 85%;
+    height: 25%;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    font-weight: 1000;
+    font-weight: 1000;  
 }
 
 .mainSpeech_div{
@@ -78,23 +80,31 @@
     opacity: .85;
     user-select: none;
 }
-.chicken{
-    height: 60%;
-    width: 100%;
-    margin-top: 7px;
-}
-.sandwich{
-    height: 60%;
-    width: 100%;
-    margin-top: 7px;
-
-}
-.greek{
-    height: 100%;
-    width: 100%;
-    margin-top: 7px;
-}
 .parrafo{
-    font-weight: 500;
+    font-weight: 700;
     font-size: .8em;
+    color: #CF5C36;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(14, 13, 13, 0.676);
+    opacity: 0;
+    text-align: center;
 }
+.offer1__h2{
+    font-size: 1em;
+    background-color: red;
+}
+.parrafo:hover {
+    opacity: 1;
+    transition: .4s;
+}
+.parrafo1{
+    text-align: center;
+    font-size: 1.2em;
+    color: #321325;
+    margin-bottom: -45px ;
+    margin-top: -30px;
+}
+
+                    
