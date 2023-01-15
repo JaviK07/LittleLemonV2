@@ -11,7 +11,7 @@ function Navbar () {
             </div>   
                 <div className={styles.navItems}>
                     <div className={styles.linksContainer}>
-                    <Link to="Foods" className={styles.links}> Menu </Link>
+                    <Link to="#" className={styles.links}> Menu </Link>
                     <Link to="#" className={styles.links}> Reservations </Link>
                     </div>
                     <button className={styles.navButton}>Sign up</button>

@@ -19,7 +19,12 @@
 }
 .offersContainer{
     width: 25%;
-    background-color: #CC923B;
+   
+   
+    /* background-color: #CC923B; */
+    background-color: #EFC88B;
+   
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
