@@ -3,7 +3,7 @@ import styles from "../styles/Foods.module.css"
 
 const Foods = () => {
     return (
-        <div>fosdasdods</div>
+        <div>fosdassadasdasdods</div>
     )
 }
 
