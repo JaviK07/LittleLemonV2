@@ -1,115 +1,106 @@
-.mainLogo{
-    width: 75%;
-    height: 810px;
-    background-image: url(../Images/chef.jpg);
-	background-size:cover;
-    filter: saturate(1.2) ;
-    background-position: center center;
-}
-.mainSpeech{
-    display: flex;
-    justify-content: flex-end;
-    height: 70%;
-    align-items: center;
-    margin-right: 25%;
-  
-}
 .Main{
-    display: flex;
-}
-.offersContainer{
-    width: 25%;
-   
-   
-    /* background-color: #CC923B; */
-    background-color: #EFC88B;
-   
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-.offer1{
-    background-image: url(../Images/greeksalad.jpg);
-    background-position: center center;
-    background-size:cover;
-    background-color: #CC923B;
-    display: flex;
-    justify-content: center;
-    width: 85%;
-    height: 25%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    font-weight: 1000;   
-}
-.offer2{
-    background-image: url(../Images/sandwich.jpg);
-    background-position: center center;
-    background-size:cover;
-    background-color: #CC923B;
-    display: flex;
-    justify-content: center;
-    width: 85%;
-    height: 25%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    font-weight: 1000;   
-}
-.offer3{
-    background-image: url(../Images/pollo.jpg);
-    background-position: center center;
-    background-size:cover;
-    background-color: #CC923B;
-    display: flex;
-    justify-content: center;
-    width: 85%;
-    height: 25%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    font-weight: 1000;  
+background-image: url(../Images/vector1.jpg);
+
+background-size: cover;
+position: absolute;
+height: 100%;
+left: -1px;
+right: 0px;
+top: -300px;
+z-index: 0;
 }
 
-.mainSpeech_div{
-    background-color: #D3D5D7;
-    color: #321325;
-    font-weight: 500;
-    border-radius: 30%;
-    padding: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    opacity: .85;
-    user-select: none;
+.Greetings{
+margin-top: 600px;
+font-size: 60px;
+width: 627px;
+height: 115px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
 }
-.parrafo{
-    font-weight: 700;
-    font-size: .8em;
-    color: #CF5C36;
-    display: flex;
-    align-items: center;
-    height: 100px;
-    background-color: rgba(14, 13, 13, 0.676);
-    opacity: 0;
-    text-align: center;
+.greetingsP{
+width: 573px;
+height: 51px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+
+flex: none;
+order: 1;
+flex-grow: 0;
 }
-.offer1__h2{
-    font-size: 1em;
-    background-color: red;
-}
-.parrafo:hover {
-    opacity: 1;
-    transition: .4s;
-}
-.parrafo1{
-    text-align: center;
-    font-size: 1.2em;
-    color: #321325;
-    margin-bottom: -45px ;
-    margin-top: -30px;
+.main__div{
+margin-left: 20%;
+position: absolute;
+
+z-index: 300;
+
 }
 
-                    
+.lemonImg{
+position: absolute;
+
+z-index: 200;
+
+width: 839px;
+top: 300px;
+height: 904px;
+left: calc(50% - 839px/2 + 250.5px);
+top: calc(70% - 904px/2 - 38px);
+
+}
+.button1{
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+width: 150px;
+height: 50px;
+background: #F6AD3A;
+border: 1px solid #000000;
+border-radius: 50px;
+
+/* Font */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
+}
+.button2{
+width: 150px;
+height: 50px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background-color: transparent;
+order: 1;
+flex-grow: 0;
+border-radius: 50px;
+margin-left: 12px;
+
+/* Font */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
+
+}
+
+
+
+
+
+
+
+
+

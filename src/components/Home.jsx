@@ -13,8 +13,8 @@ function Home () {
         
         <Navbar /> 
         <Main />
-        <Reserve />
-        <Footer />
+        {/* <Reserve /> */}
+        {/* <Footer /> */}
         </div>
     )
 }
