@@ -1,12 +1,11 @@
 .Main{
 background-image: url(../Images/vector1.jpg);
-
 background-size: cover;
 position: absolute;
 height: 100%;
 left: -1px;
 right: 0px;
-top: -300px;
+top: -250px;
 z-index: 0;
 }
 
@@ -23,29 +22,31 @@ line-height: 61px;
 flex: none;
 order: 0;
 flex-grow: 0;
-
-
+color: #F6AD3A;
+filter: drop-shadow(0px 1px 0px rgba(0, 0, 0, 1));
 }
+
 .greetingsP{
 width: 573px;
 height: 51px;
 font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 20px;
 line-height: 24px;
 color: #000000;
-
 flex: none;
 order: 1;
 flex-grow: 0;
 }
+
 .main__div{
 margin-left: 20%;
 position: absolute;
+margin-top: -90px;
+
 
 z-index: 300;
-
 }
 
 .lemonImg{
@@ -57,7 +58,7 @@ width: 839px;
 top: 300px;
 height: 904px;
 left: calc(50% - 839px/2 + 250.5px);
-top: calc(70% - 904px/2 - 38px);
+top: calc(75% - 904px/2 - 38px);
 
 }
 .button1{
@@ -71,10 +72,11 @@ border-radius: 50px;
 /* Font */
 font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 25px;
 line-height: 30px;
 color: #000000;
+cursor: pointer;
 }
 .button2{
 width: 150px;
@@ -85,6 +87,7 @@ order: 1;
 flex-grow: 0;
 border-radius: 50px;
 margin-left: 12px;
+cursor: pointer;
 
 /* Font */
 font-family: 'Inter';

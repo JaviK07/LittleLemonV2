@@ -1,1 +1,0 @@
-Footer not created on purpose, thx for understand :)
