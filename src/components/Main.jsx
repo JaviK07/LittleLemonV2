@@ -12,7 +12,7 @@ function Main() {
                     <button className={styles.button2}>Menu</button>
                 </div>
             </div>
-            <img src={require('../Images/limoneto.png')} className={styles.lemonImg} />
+            <img src={require('../Images/limoneto.png')} className={styles.lemonImg} alt="hola" />
         </div>
     )
 }
