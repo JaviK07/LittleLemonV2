@@ -2,27 +2,28 @@
     position: absolute;
     width: 254px;
     left: calc(51.3% - 264px/2);
-    top: 1250px;
+    top: 1150px;
     bottom: 94.01%;
 }
 .aside__h2{
     position: absolute;
     width: max-content;
     left: calc(50% - 264px/2);
-    top: 800px;
-    top: 1300px;
+    
+    top: 1200px;
     font-size: 40px;
 }
 .foodContainer{
 position: relative;
-width: 849px;
-height: 1177px;
-left: 215px;
+width: 850px;
+height: max-content;
 top: 1400px;
-left: calc(23% - 264px/2);
+left: calc(20% - 264px/2);
 
 }
-
+.burguerContainer{
+    margin-bottom: -150px;
+}
 .burguerImg{
 height: 200px;
 width: 300px;
@@ -67,6 +68,9 @@ border-radius: 50px;
 cursor: pointer;
 }
 
+.milanesaContainer{
+    margin-bottom: -150px;
+}
 .milanesaImg{
     height: 200px;
     width: 300px;
@@ -110,32 +114,164 @@ cursor: pointer;
     cursor: pointer;
     }
 
+.milanesaImg{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    bottom: 180px;
+    left: calc(67% - 264px/2);
+}
+.milanesa__p{
+    width:526px;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;  
+}
+.milanesa__h3{
+    filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 1));
+    width: 281px;
+    font-size: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 10px;
+    color: #F6AD3A;
+}
+.milanesa__button{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 150px;
+    height: 44px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background: #F6AD3A;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    }
+    
+    /*  */
+.ravioliContainer{
+ margin-bottom: -150px;
+}
+.ravioliImg{
+height: 200px;
+width: 250px;
+position: relative;
+bottom: 180px;
+left: calc(75% - 264px/2);
+}
+.ravioli__p{
+width:526px;
+font-size: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;  
+}
+.ravioli__h3{
+filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 1));
+width: 281px;
+font-size: 32px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+margin-bottom: 10px;
+color: #F6AD3A;
+}
+.ravioli__button{
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+width: 150px;
+height: 44px;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+background: #F6AD3A;
+border: 1px solid #000000;
+border-radius: 50px;
+cursor: pointer;
+}
 
+/*  */
+.empanadaContainer{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.empanadaImg{
+height: 200px;
+width: 250px;
+position: relative;
+bottom: 180px;
+left: calc(77.5% - 264px/2);
+}
+.empanada__p{
+width:526px;
+font-size: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;  
+}
+.empanada__h3{
+filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 1));
+width: 281px;
+font-size: 32px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+margin-bottom: 10px;
+color: #F6AD3A;
+}
+.empanada__button{
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+width: 150px;
+height: 44px;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+background: #F6AD3A;
+border: 1px solid #000000;
+border-radius: 50px;
+cursor: pointer;
+}
 
 .chefs{
-    position: absolute;
-    width: 626px;
-    height: 900px;
-    
-    left: 1000px;
-    top: 100px;
+position: absolute;
+width: 800px;
+height: 1000px;
+left: calc(58%);
+top: 1495px;
+filter: contrast(1.2);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

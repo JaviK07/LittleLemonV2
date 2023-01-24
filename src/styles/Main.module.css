@@ -54,11 +54,11 @@ position: absolute;
 
 z-index: 200;
 
-width: 839px;
-top: 300px;
-height: 904px;
+width: 1000px;
+
+height: 1200px;
 left: calc(50% - 839px/2 + 250.5px);
-top: calc(75% - 904px/2 - 38px);
+top: calc(60% - 904px/2 - 38px);
 
 }
 .button1{
