@@ -3,19 +3,18 @@ import styles from "../styles/Navbar.module.css"
 
 function Navbar () {
     return (
-        <div className={styles.Navbar}>
+        
           <div className={styles.navContainer}> 
-                <div className={styles.navItems}>
+                
                 <span className={styles.Name}>LittleLemon</span>
-                    <div className={styles.linksContainer}>
+                    <ul className={styles.linksContainer}>
                     <Link to="#" className={styles.links}> Home </Link>
                     <Link to="#" className={styles.links}> Menu </Link>
                     <Link to="#" className={styles.links}> Contact Us </Link>
                     <Link to="#" className={styles.links}> About Us </Link>
-                    </div>
-                </div>
+                    </ul>
             </div>
-        </div>
+        
     )
 }
 

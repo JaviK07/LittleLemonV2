@@ -1,44 +1,51 @@
-.linksContainer{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 50px;
-background-color: #FDD000;
-height: 24px;
-width: 50vw;
-}
-
-.navItems{
-display: flex;
-flex-direction: row;
-align-items: center;
-position: relative;
-background-color: #FDD000;
-height: 39px;
-top: 9px;
-}
-.Navbar{
-position: relative;
-width: 100%;
-height: 57px;
-
-z-index: 400;
-
-background: #FDD000;
+.navContainer{
+    /* display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    height: 60px ;
+    align-items: center;
+    text-align: center;
+    
+    width: 100%;
+    
+     */
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FDD000;
+    
 }
 .Name{
-    margin-left: 150px;
-    width: 25%;
-    font-size: 2em;
+    /* grid-column: 1/2;
+    justify-self: center; */
+    
+    
+    margin-right: 10px;
+    font-size: 1.6em;
     font-weight: 500;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.linksContainer{
+    /* grid-column: 2/3;
+    width: max-content;
+    justify-self: end;
+    max-width: max-content; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+    
+        
 }
 .links{
-    font-size: 1.2em;
-    text-align: center;
+   
     text-decoration: none;
     color: #000;
+    margin-right: 60px;
+    width: max-content;
+    font-size: 1.1em;
     font-weight: 500;
-    filter: drop-shadow(0.2px 0.2px 4px rgba(0,0,0,0.2));
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: min-content;
 }

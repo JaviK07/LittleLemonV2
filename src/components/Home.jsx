@@ -15,7 +15,7 @@ function Home () {
         
         <Navbar /> 
         <Main />
-        <Aside />
+        {/* <Aside /> */}
         {/* <Footer /> */}
         </div>
     )

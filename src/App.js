@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from "../src/components/Home.jsx";
-import Foods from "./components/Foods.jsx";
+import foods from "./components/foods.jsx";
 import Food from "./components/Food.jsx";
 
 
@@ -13,7 +13,7 @@ function App() {
       
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path="/foods" element={<Foods/>} />
+        {/* <Route path="/foods" element={<Foods/>} /> */}
         <Route path="/foods/:id" element={<Food/>} />
       </Routes>
     </BrowserRouter>
