@@ -1,4 +1,4 @@
-.fivestars{
+/* .fivestars{
     position: absolute;
     width: 254px;
     left: calc(51.3% - 264px/2);
@@ -157,7 +157,7 @@ cursor: pointer;
     cursor: pointer;
     }
     
-    /*  */
+    /*  
 .ravioliContainer{
  margin-bottom: -150px;
 }
@@ -204,7 +204,7 @@ border-radius: 50px;
 cursor: pointer;
 }
 
-/*  */
+/*  
 .empanadaContainer{
 
 }
@@ -260,10 +260,42 @@ top: 1495px;
 filter: contrast(1.2);
 }
 
+ */
+ .asideContainer{
+    margin-top: 40em;
+ }
+ .popularContainer{
+    display: flex;
+    /* flex-direction: column; */
+ }
+ .fivestars{
+    /* position: absolute; */
+    width: 254px;
+    left: calc(51.3% - 264px/2);
+    top: 1150px;
+    bottom: 94.01%;
+}
+.foodContainer{
+    margin-top: 0%;
+}
 
-
-
-
+.burguerImg{
+    height: 200px;
+    width: 250px;
+    
+}
+.milanesaImg{
+    height: 200px;
+    width: 250px;
+}
+.ravioliImg{
+    height: 200px;
+    width: 250px;
+}
+.empanadaImg{
+    height: 200px;
+    width: 250px;
+}
 
 
 

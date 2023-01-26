@@ -25,9 +25,10 @@ margin-top: 7px;
 margin-bottom: 17px;
 }
 .main__div{
-position: absolute;
-top: calc(25%);
+position: relative;
+top: calc(150px);
 left: calc(20%);
+margin-bottom: 45%;
 }
 .lemonImg{
     width: 600px;
@@ -109,9 +110,10 @@ color: #000000;
                 line-height: 55px;
                 }
                 .main__div{
-                    position: absolute;
-                    top: calc(12%);
-                    left: calc(22%);
+                    position: relative;
+                    top: calc(150px);
+                    left: calc(20%);
+                    
                     }
                     .greetingsP{
                         width: 573px;

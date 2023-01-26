@@ -2,10 +2,11 @@ import styles from "../styles/Aside.module.css"
 
 function Aside() {
     return (
-    <>
-    
-            <img src={require('../Images/fivestars.png')} className={styles.fivestars}  alt="hola"/>
-            <h2 className={styles.aside__h2}>Popular Choices</h2>
+    <aside className={styles.asideContainer}>
+            <div className={styles.popularContainer}>
+                <img src={require('../Images/fivestars.png')} className={styles.fivestars}  alt="hola"/>
+                <h2 className={styles.aside__h2}>Popular Choices</h2>
+            </div>
            
             <div className={styles.foodContainer}>
                 <div className={styles.burguerContainer}>
@@ -50,8 +51,8 @@ function Aside() {
 
                
             </div>    
-            <img src={require('../Images/chefs.jpg')} className={styles.chefs} alt="hola" />
-    </>
+           
+    </aside>
     )
 }
 
