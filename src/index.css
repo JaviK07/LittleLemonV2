@@ -6,8 +6,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff;
-
+  background: url("./Images/Vector1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+@media (max-width: 1000px) {
+  body{
+    background: url("./Images/VectorResponsive.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  }
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

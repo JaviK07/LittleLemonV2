@@ -1,33 +1,17 @@
-.Main{
-
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
-
-}
-.svg{
-    
-    position: absolute;
-    width: 100%;
-    background-size: cover;
-background-repeat: no-repeat;
-}
-
 .Greetings{
 font-size: 60px;
-width: 627px;
+width: 650px;
 height: 115px;
 font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 50px;
-line-height: 61px;
+line-height: 55px;
 color: #F6AD3A;
 filter: drop-shadow(0px 1px 0px rgba(0, 0, 0, 1));
-}
 
-/* .greetingsP{
+}
+.greetingsP{
 width: 573px;
 height: 51px;
 font-family: 'Inter';
@@ -36,26 +20,24 @@ font-weight: 500;
 font-size: 20px;
 line-height: 24px;
 color: #000000;
-flex: none;
-order: 1;
 flex-grow: 0;
-} */
-
-/* .main__div{
-margin-left: 20%;
+margin-top: 7px;
+margin-bottom: 17px;
+}
+.main__div{
 position: absolute;
-margin-top: -90px;
-
-
-z-index: 300;
-} */
-
-/* .lemonImg{
-    width: 10px;
-    height: 1000px;
-} */
-
-/* .button1{
+top: calc(25%);
+left: calc(20%);
+}
+.lemonImg{
+    width: 600px;
+    height: auto;
+    position: absolute;
+    left: calc(50%);
+    top: calc(5px);
+    z-index: -1;
+}
+.button1{
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 width: 150px;
 height: 50px;
@@ -71,10 +53,8 @@ font-size: 25px;
 line-height: 30px;
 color: #000000;
 cursor: pointer;
-} */
-
-
-/* .button2{
+}
+.button2{
 width: 150px;
 height: 50px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -92,10 +72,62 @@ font-weight: 400;
 font-size: 25px;
 line-height: 30px;
 color: #000000;
-} */
+}
 
-
-
+@media (max-width: 1444px) {
+    .lemonImg{
+        width: 550px;
+        height: auto;
+        position: absolute;
+        left: calc(45%);
+        top: calc(5px);
+        z-index: -1;
+    }
+    }
+    @media (max-width: 1000px) {
+        .lemonImg{
+            width: 450px;
+            height: auto;
+            position: absolute;
+            left: calc(45%);
+            top: calc(40px);
+            z-index: -1;
+        }
+        }
+        @media (max-width: 850px) {
+            .lemonImg{
+               display: none;
+            }
+            .Greetings{
+                font-size: 60px;
+                width: 500px ;
+                height: 115px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 45px;
+                line-height: 55px;
+                }
+                .main__div{
+                    position: absolute;
+                    top: calc(12%);
+                    left: calc(22%);
+                    }
+                    .greetingsP{
+                        width: 573px;
+                        height: 51px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 17px;
+                        line-height: 20px;
+                        color: #000000;
+                        flex-grow: 0;
+                        margin-top: 7px;
+                        margin-bottom: 10px;
+                        }
+            }
+       
 
 
 
