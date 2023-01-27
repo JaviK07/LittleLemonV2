@@ -215,8 +215,57 @@ position: relative;
 bottom: 180px;
 left: calc(77.5% - 264px/2);
 }
-.empanada__p{
-width:526px;
+
+ */
+ .asideContainer{
+    margin-top: 30rem;
+ }
+ .popularContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+ }
+ .fivestars{
+    width: 254px;
+    height: auto;
+    margin-top: 90px;
+}
+.aside__h2{
+    margin-top: -50px;
+}
+.foodContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    margin-top: 70px;
+}
+
+.burguerImg{
+height: 200px;
+width: 250px;
+position: relative;
+right: calc(1%);
+    
+}
+.burguer__h3{
+width: 281px;
+font-size: 32px;
+filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 1));
+width: 281px;
+font-size: 32px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+margin-bottom: 10px;
+color: #F6AD3A;
+}
+.burguer__p{
+width: 526px;
 font-size: 20px;
 font-family: 'Inter';
 font-style: normal;
@@ -224,18 +273,157 @@ font-weight: 400;
 font-size: 20px;
 line-height: 24px;
 color: #000000;  
+margin-bottom: 35px;
 }
-.empanada__h3{
+.burguer__button{
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+width: 150px;
+height: 44px;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+background: #F6AD3A;
+border: 1px solid #000000;
+border-radius: 50px;
+cursor: pointer;
+}
+.burguerContainer{
+    display: flex;
+    margin-bottom: 75px;
+}
+
+
+.milanesaImg{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    right: calc(6%);
+}
+.milanesa__h3{
+width: max-content;
+font-size: 32px;
+width: 281px;
+font-size: 32px;
+filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 1));
+width: max-content;
+font-size: 32px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+margin-bottom: 10px;
+color: #F6AD3A;
+}
+.milanesa__p{
+width: 526px;
+font-size: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000; 
+margin-bottom: 35px;
+
+}
+.milanesa__button{
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+width: 150px;
+height: 44px;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+background: #F6AD3A;
+border: 1px solid #000000;
+border-radius: 50px;
+cursor: pointer;
+}
+.milanesaContainer{
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.ravioliImg{
+    height: 200px;
+    width: 225px;
+    position: relative;
+    left: calc(1%);
+}
+.ravioli__h3{
+width: max-content;
+font-size: 32px;
+width: 281px;
+font-size: 32px;
 filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 1));
 width: 281px;
 font-size: 32px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 32px;
-line-height: 39px;
 margin-bottom: 10px;
 color: #F6AD3A;
+}
+.ravioli__p{
+width: 526px;
+font-size: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000; 
+margin-bottom: 35px;
+}
+.ravioli__button{
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+width: 150px;
+height: 44px;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+background: #F6AD3A;
+border: 1px solid #000000;
+border-radius: 50px;
+cursor: pointer;
+}
+.ravioliContainer{
+    display: flex;
+    margin-right: 25px;
+    margin-bottom: 75px;
+}
+
+
+.empanadaImg{
+    height: 200px;
+    width: 250px;
+    position: relative;
+}
+.empanada__h3{
+width: max-content;
+font-size: 32px;
+width: 281px;
+font-size: 32px;
+filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 1));
+width: max-content;
+font-size: 32px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+margin-bottom: 10px;
+color: #F6AD3A;
+}
+.empanada__p{
+width: 526px;
+font-size: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000; 
+margin-bottom: 35px;
 }
 .empanada__button{
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -250,51 +438,9 @@ border: 1px solid #000000;
 border-radius: 50px;
 cursor: pointer;
 }
-
-.chefs{
-position: absolute;
-width: 800px;
-height: 1000px;
-left: calc(58%);
-top: 1495px;
-filter: contrast(1.2);
-}
-
- */
- .asideContainer{
-    margin-top: 40em;
- }
- .popularContainer{
+.empanadaContainer{
     display: flex;
-    /* flex-direction: column; */
- }
- .fivestars{
-    /* position: absolute; */
-    width: 254px;
-    left: calc(51.3% - 264px/2);
-    top: 1150px;
-    bottom: 94.01%;
-}
-.foodContainer{
-    margin-top: 0%;
-}
-
-.burguerImg{
-    height: 200px;
-    width: 250px;
-    
-}
-.milanesaImg{
-    height: 200px;
-    width: 250px;
-}
-.ravioliImg{
-    height: 200px;
-    width: 250px;
-}
-.empanadaImg{
-    height: 200px;
-    width: 250px;
+    margin-bottom: 75px;
 }
 
 
