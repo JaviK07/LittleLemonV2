@@ -115,8 +115,8 @@ color: #000000;
                 }
                 .main__div{
                     position: relative;
-                    top: calc(150px);
-                    left: calc(20%);
+                    top: calc(100px);
+                    left: calc(50px);
                     
                     }
                     .greetingsP{
@@ -133,7 +133,110 @@ color: #000000;
                         margin-bottom: 10px;
                         }
             }
-       
+            @media (max-width: 750px) {
+                .Greetings{
+                    width: 500px;
+                    height: 115px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 45px;
+                    line-height: 55px;
+                    
+                    }
+                    .greetingsP{
+                   
+                    font-size: 17px;
+                    }
+                    .main__div{
+                    position: relative;
+                    top: calc(100px);
+                    left: 50px;
+                    margin-bottom: 45%;
+                    width: max-content;
+                    }
+                    .lemonImg{
+                        display: none;
+                    }
+                    .button1{
+                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                    width: 150px;
+                    height: 50px;
+                    background: #F6AD3A;
+                    border: 1px solid #000000;
+                    border-radius: 50px;
+                    
+                    
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 30px;
+                    color: #000000;
+                    cursor: pointer;
+                    }
+                    .button2{
+                    width: 150px;
+                    height: 50px;
+                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                    background-color: transparent;
+                    order: 1;
+                    flex-grow: 0;
+                    border-radius: 50px;
+                    margin-left: 12px;
+                    cursor: pointer;
+                    
+                    
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 30px;
+                    color: #000000;
+                    }
+            }
+    @media (max-width: 600px){
+        .Greetings{
+            width: 450px;
+            height: 115px;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 55px;
+            
+            }
+            .greetingsP{
+            width: 400px;
+            font-size: 17px;
+            margin-bottom: 25px;
+            }
+            .main__div{
+            position: relative;
+            top: calc(100px);
+            left: 50px;
+            margin-bottom: 45%;
+            width: max-content;
+            }
+            .lemonImg{
+                display: none;
+            }
+            .button1{
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                width: 140px;
+                height: 40px;
+                
+                font-size: 22px;
+                cursor: pointer;
+                }
+                .button2{
+                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                    width: 140px;
+                    height: 40px;
+                    
+                    font-size: 22px;
+                    cursor: pointer;
+                }
+            }
+            
 
 
 

@@ -10,10 +10,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 869px ;
+  scroll-behavior: smooth;
 }
 @media (max-width: 850px) {
   body{
     height: 600px ;
+    overflow-x: hidden;
   }
 
 }

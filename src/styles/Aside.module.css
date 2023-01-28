@@ -259,7 +259,130 @@ cursor: pointer;
             margin-bottom: 75px;
             margin-left: 7%;
         }
+        .foodContainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: 70px;
+        }    
+        .burguerImg{
+            height: 125px;
+            width: 150px;
+            position: relative;
+            left: calc(0%);
         }
+        .milanesaImg{
+            height: 125px;
+            width: 150px;
+            position: relative;
+            right: calc(3%);
+        }
+        .ravioliImg{
+            height: 125px;
+            width: 150px;
+            position: relative;
+            left: calc(1%);
+        }
+        .empanadaImg{
+            height: 125px;
+            width: 150px;
+            position: relative;
+            left: calc(1%);
+        }
+
+        }
+
+        @media (max-width: 760px) {
+        .popularContainer{
+            margin-top: 25em;
+         }
+         .burguerContainer{
+            display: flex;
+            margin-right: 25px;
+            margin-bottom: 75px;
+            margin-left: 7%;
+        }
+        .empanadaContainer{
+            display: flex;
+            margin-right: 25px;
+            margin-bottom: 75px;
+            margin-left: 7%;
+        }
+        .ravioliContainer{
+            display: flex;
+            margin-right: 25px;
+            margin-bottom: 75px;
+            margin-left: 7%;
+        }
+        .milanesaContainer{
+            display: flex;
+            margin-right: 25px;
+            margin-bottom: 75px;
+            margin-left: 7%;
+        }
+        .burguerImg{
+            height: 125px;
+            width: 150px;
+            position: relative;
+            left: calc(0%);
+        }
+        .milanesaImg{
+            height: 125px;
+            width: 150px;
+            position: relative;
+            right: calc(3%);
+        }
+        .ravioliImg{
+            height: 125px;
+            width: 150px;
+            position: relative;
+            left: calc(1%);
+        }
+        .empanadaImg{
+            height: 125px;
+            width: 150px;
+            position: relative;
+            left: calc(1%);
+        }
+        .burguer__p{
+            width: 400px;
+            }
+        .milanesa__p{
+            width: 400px;
+            }
+        .ravioli__p{
+            width: 400px;
+            }        
+        .empanada__p{
+            width: 400px;
+            }    
+        .foodContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 70px;
+    }    
+}
+
+@media (max-width: 560px){
+    .burguerImg{
+       display: none;
+    }
+    .milanesaImg{
+        display: none;
+    }
+    .ravioliImg{
+        display: none;
+    }
+    .empanadaImg{
+        display: none;
+    }
+
+}
 
 
 
