@@ -1,5 +1,8 @@
 import styles from "../styles/Aside.module.css"
-import ImageDisplay from "../components/ImageDisplay.jsx";
+import DisplayBurguer from "../components/DisplayBurguer.jsx";
+import DisplayMilanesa from "../components/DisplayMilanesa.jsx";
+import DisplayRavioli from "../components/DisplayRavioli.jsx";
+import DisplayEmpanada from "../components/DisplayEmpanada.jsx";
 
 function Aside() {
     return (
@@ -15,7 +18,7 @@ function Aside() {
                         <h3 className={styles.burguer__h3}>Awesome Burger</h3>
                         <p className={styles.burguer__p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                         <button className={styles.burguer__button}>Orden Now</button>
-                        <ImageDisplay />
+                        <DisplayBurguer />
                     </div>
                         <img src={require('../Images/burguer.png')} className={styles.burguerImg} alt="hola" />
                 </div>
@@ -25,7 +28,7 @@ function Aside() {
                         <h3 className={styles.milanesa__h3}>Argentinian Milanesa</h3>
                         <p className={styles.milanesa__p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                         <button className={styles.milanesa__button}>Orden Now</button>  
-                        <button>PIC</button>
+                        <DisplayMilanesa />
                     </div>
                         <img src={require('../Images/milanga.png')} className={styles.milanesaImg} alt="hola"/>
                 </div>
@@ -35,23 +38,21 @@ function Aside() {
                         <h3 className={styles.ravioli__h3}>Ravioli Sauce</h3>
                         <p className={styles.ravioli__p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                         <button className={styles.ravioli__button}>Orden Now</button>
-                        <button>PIC</button>
+                        <DisplayRavioli />
                     </div>
                         <img src={require('../Images/raviolis.png')} className={styles.ravioliImg} alt="hola" />
                     
                 </div>
-                
-                
 
                 <div className={styles.empanadaContainer}>
                     <div>
                         <h3 className={styles.empanada__h3}>Argentinian Empanada</h3>
                         <p className={styles.empanada__p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                         <button className={styles.empanada__button}>Orden Now</button>
-                        <button>PIC</button>
+                        <DisplayEmpanada />
                     </div>
                         <img src={require('../Images/Empanada.png')} className={styles.empanadaImg} alt="hola" />
-                    
+                        
                 </div>
 
                

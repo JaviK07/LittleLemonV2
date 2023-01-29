@@ -1,0 +1,76 @@
+.displayButton{
+    display: none;
+}
+.displayburger{
+    display: none;
+}
+.displaymilanesa{
+    display: none;
+}
+.displayravioli{
+    display: none;
+}
+.displayempanada{
+    display: none;
+}
+
+@media (max-width: 560px) {
+.displayButton{
+    display: flex;
+    background-image: url(../Images/camera.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    position: relative;
+    left: calc(160px);
+    bottom: calc(35px);
+}
+
+.displayburger{
+    position: relative;
+    width: 200px;
+    margin-bottom: -50px;
+    left: calc(80px);
+    bottom: calc(20px);
+    display: block;
+}
+.displaymilanesa{
+    position: relative;
+    width: 130px;
+    margin-bottom: -50px;
+    left: calc(120px);
+    display: block;
+}
+.displayravioli{
+    position: relative;
+    width: 150px;
+    margin-bottom: -50px;
+    left: calc(115px);
+    display: block;
+}
+.displayempanada{
+    position: relative;
+    width: 155px;
+    
+    left: calc(125px);
+    display: block;
+}
+}
+@media (max-width: 420px){
+    .displayButton{
+        display: flex;
+        background-image: url(../Images/camera.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 25px;
+        width: 25px;
+        border-radius: 10px;
+        position: relative;
+        left: calc(110px);
+        bottom: calc(30px);
+    }
+}
