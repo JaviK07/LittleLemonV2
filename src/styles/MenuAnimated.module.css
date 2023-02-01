@@ -1,0 +1,61 @@
+.links{
+display: none;
+}
+.burguerMenu{
+    display: none;
+}
+
+@media (max-width: 850px){
+    .links{
+        display: flex;
+        }
+        .burguerMenu{
+            display: flex;
+        }
+        .links{
+            text-decoration: none;
+            color: #000;
+            /* background-color: red; */
+            border: 2px solid rgba(0, 0, 0, .1);
+            margin-bottom: 15px;
+            
+            font-size: 20px;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            /* margin-top: 7px; */
+
+        }
+        .links:hover{
+            transition: .2s;
+            background-color: #e4bf1a ;
+        }
+        .container_links{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+            position: absolute;
+            right: 0;
+            right: calc(-10px);
+            margin: 7px;
+            height: 38%;
+            width: 500px ;
+            background-color: #F6AD3A;
+            top: calc(60px);
+            z-index: 200;
+        }
+        .burguerMenu{
+            display: flex;
+            margin-right: 20px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    
+    
+    }
+

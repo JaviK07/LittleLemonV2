@@ -329,8 +329,60 @@ color: #000000;
                 }
              }
 
-             @media (max-width: 310px){
-
+             @media (max-width: 335px){
+             .Greetings{
+                    width: 267px;
+                    height: 115px;
+                    font-weight: 500;
+                    font-size: 27px;
+                    line-height: 55px;
+                    filter: drop-shadow(.5px 1.5px 0px rgba(0, 0, 0, 1));
+                    display: flex;
+                    flex-wrap: wrap;
+                    }
+                    .greetingsP{
+                    width: 270px;
+                    font-size: 14px;
+                    margin-bottom: 25px;
+                    font-weight: 500;
+                    
+                    }
+                    .main__div{
+                    position: relative;
+                    top: calc(100px);
+                    left: 15px;
+                    margin-bottom: 45%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    }
+                      .button1{
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                width: 150px;
+                height: 35px;
+                display: flex;
+                font-size: 20px;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                position: relative;
+                left: calc(50px);
+                }
+                .button2{
+                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                    width: 150px;
+                    height: 35px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-size: 20px;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    position: relative;
+                    left: calc(38px);
+                    top: calc(20px);
+                }
              }
 
 

@@ -1,6 +1,4 @@
-.asideContainer{
-    
- }
+
  .popularContainer{
     display: flex;
     justify-content: center;
@@ -558,9 +556,193 @@ cursor: pointer;
             
             margin-top: 70px;
             }  
+            .popularContainer{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                
+                margin-top: 17rem;
+             }
 }
-@media (max-width: 310px){
+@media (max-width: 335px){
+    .foodContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+            .burguer__h3{
+        width: 281px;
+        font-size: 28px;
+        filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 1));
+        width: 240px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 10px;
+        color: #F6AD3A;
+        text-align: center;
+        }
+        .burguer__p{
+        width: 250px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #000000;  
+        margin-bottom: 35px;
+        
+        }
+        .burguerContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+            margin-bottom: 75px;
+            width: 100%;
+        }
+        
+        .milanesa__h3{
+        width: max-content;
+        font-size: 32px;
+        width: 240px;
 
+        font-size: 32px;
+        filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 1));
+        font-size: 32px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 10px;
+        color: #F6AD3A;
+        text-align: center;
+        }
+        .milanesa__p{
+        width: 250px;
+        font-size: 14px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        color: #000000;  
+        margin-bottom: 35px;
+        }
+        .milanesa__button{
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        width: 100px;
+        height: 35px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        background: #F6AD3A;
+        border: 1px solid #000000;
+        border-radius: 50px;
+        cursor: pointer;
+        }
+        .milanesaContainer{
+            display: flex;
+            margin-bottom: 75px;
+        }
+
+        .ravioli__h3{
+        width: max-content;
+        font-size: 32px;
+        width: 240px;
+        font-size: 32px;
+        filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 1));
+        width: 240px;
+        font-size: 32px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 10px;
+        color: #F6AD3A;
+        text-align: center;
+        }
+        .ravioli__p{
+        width: 250px;
+        font-size: 14px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        color: #000000;  
+        margin-bottom: 35px;
+        }
+        .ravioli__button{
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        width: 100px;
+        height: 35px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        background: #F6AD3A;
+        border: 1px solid #000000;
+        border-radius: 50px;
+        cursor: pointer;
+        }
+        .ravioliContainer{
+            display: flex;
+            margin-right: 25px;
+            margin-bottom: 75px;
+        }
+        
+        .empanada__h3{
+        width: max-content;
+        font-size: 32px;
+        width: 240px;
+        font-size: 32px;
+        filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 1));
+        
+        font-size: 32px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 10px;
+        color: #F6AD3A;
+        text-align: center;
+        }
+        .empanada__p{
+        width: 250px;
+        font-size: 14px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        color: #000000;  
+        margin-bottom: 35px;
+        }
+        .empanada__button{
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        width: 100px;
+        height: 35px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        background: #F6AD3A;
+        border: 1px solid #000000;
+        border-radius: 50px;
+        cursor: pointer;
+        }
+        .foodContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        }  
+        .popularContainer{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            
+            margin-top: 15rem;
+         }
 }
 
 
