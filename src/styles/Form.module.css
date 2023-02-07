@@ -1,0 +1,60 @@
+.picker{
+    /* background-color: red; */
+    width: max-content;
+}
+
+.formContainer{
+    background: rgba(253, 208, 0, .5);
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.Reserve{
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    
+}
+
+.card{
+    background: rgba(253, 208, 0, .9);
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 5px solid rgba(0, 0, 0, .5);
+}
+.card__h3{
+    margin-bottom: 50px;
+}
+
+.MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+}

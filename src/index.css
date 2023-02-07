@@ -11,6 +11,8 @@ body {
   background-size: cover;
   max-height: 869px ;
   scroll-behavior: smooth;
+
+  
 }
 @media (max-width: 850px) {
   body{
@@ -18,9 +20,33 @@ body {
     overflow-x: hidden;
   }
 
+
 }
 
+.MuiPickersToolbar-toolbar {
+  background-color: #F6AD3A !important;
+}
+.MuiPickersDay-daySelected {
+  color: #fff;
+  font-weight: 500;
+  background-color: #F6AD3A !important;
+}
 
+.MuiButton-textPrimary {
+  color: #000 !important;
+}
+
+.MuiPickersClockPointer-pointer {
+  background-color: #F6AD3A !important;
+
+}
+.MuiPickersClock-pin {
+  background-color: #F6AD3A !important;
+}
+.MuiPickersClockPointer-thumb {
+  background-color: #F6AD3A !important;
+  border: 14px solid #F6AD3A !important;
+}
 
 
 
@@ -37,4 +63,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   overflow-x: none;
+
+  
 }
+
