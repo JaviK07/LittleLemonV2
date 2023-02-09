@@ -17,7 +17,7 @@ function Home () {
         <Main />
         <Aside />
         <Form />
-        {/* <Footer /> */}
+        <Footer />
         </div>
     )
 }
