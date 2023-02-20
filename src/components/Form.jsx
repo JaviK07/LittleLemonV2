@@ -1,10 +1,9 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import styles from "../styles/Form.module.css"
 import { useForm } from "react-hook-form";
-import { DatePicker, TimePicker, KeyboardDatePicker } from '@material-ui/pickers';
+import { TimePicker, KeyboardDatePicker } from '@material-ui/pickers';
 import { Select, MenuItem, InputLabel } from '@mui/material';
 import { useState } from 'react';
-import { datePickerDefaultProps } from '@material-ui/pickers/constants/prop-types';
+
 
 
 
@@ -19,15 +18,15 @@ function Form () {
     const [fecha, cambiarFecha ] = useState(new Date());
 
 
-    const { register, formState:{ errors, isSubmitSuccessful }, handleSubmit, reset } = useForm()
-
+    const { register, formState:{ errors }, handleSubmit, reset } = useForm()
+    // const {  } = useForm()
+    
     
     const onSubmit = (data) =>{
         console.log(data);
         alert("Reserve Successful")
         reset()
     }
-
 
 
     return (
@@ -40,7 +39,7 @@ function Form () {
                 <h2 className={styles.form__h2} style={{textAlign:"center"}}>Book A Table</h2>
                     <div>
                         <label className={styles.label} >Name</label>
-                        <input className={styles.input} style={{display:'flex', justifycontent:"center"}}type="text" name="" {...register("name", {
+                        <input className={styles.input} style={{display:'flex', justifycontent:"center"}} name="" {...register("name", {
                             required: true,
                             minLength:2
                             
@@ -51,27 +50,31 @@ function Form () {
 
                     <div className={styles.sections} >
                         <label className={styles.label} >Last Name</label>
-                        <input className={styles.input} style={{display:'flex', justifycontent:"center"}}type="text" name="" {...register("lastName", {
+                        <input className={styles.input} style={{display:'flex', justifycontent:"center"}} name="" {...register("lastName", {
                             required: true
                         })} />
-                        {errors.name?.type === "required" && <p className={styles.error__p}>The field must be completed to continue</p> }
+                        {errors.lastName?.type === "required" && <p className={styles.error__p}>The field must be completed to continue</p> }
 
                     </div>
 
                     <div>
                         <label className={styles.label} >Email</label>
                         <input className={styles.input} style={{display:'flex', justifycontent:"center" }} {...register("email", {
-                            required: true
+                            required: true,
+                            pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i
                         })} />
-                        {errors.name?.type === "required" && <p className={styles.error__p}>The field must be completed to continue</p> }
+                        {errors.email?.type === "required" && <p className={styles.error__p}>The field must be completed to continue</p> }
+                        {errors.email?.type === "pattern" && <p className={styles.error__p}>The field must be completed a valid email</p> }
                     </div>
                         
                     <div>
                         <label className={styles.label} >Phone</label>
                         <input className={styles.input} style={{display:'flex', justifycontent:"center"}} {...register("phone", {
-                            required: true
+                            required: true,
+                            pattern: /[0-9]/
                         })} />
-                        {errors.name?.type === "required" && <p className={styles.error__p}>The field must be completed to continue</p> }
+                        {errors.phone?.type === "required" && <p className={styles.error__p}>The field must be completed to continue</p> }
+                        {errors.phone?.type === "pattern" && <p className={styles.error__p}>The field must be completed with a valid phone</p> }
                     </div>
 
                     <div>
@@ -82,44 +85,36 @@ function Form () {
                         variant="inline"
                         
                         {...register("date", {
-                            required: true
+                          
                         })} />
-                        {errors.name?.type === "required" && <p className={styles.error__p}>The field must be completed to continue</p> }
+          
                     </div>
 
                     <div>
                         <label className={styles.label} >Time</label>
                         <TimePicker style={{display:'flex', justifycontent:"center", textAlign:"center", marginBottom:15}} className={styles.time} name="" min="09:00" max="18:00" {...register("time", {
                             required: true
-                        })} {...register("time", {
-                            required: true
-                        })} />
-                        {errors.name?.type === "required" && <p className={styles.error__p}>The field must be completed to continue</p> }
-    
+                        })}/>
+               
                     </div>
 
                     <div>
-                    <InputLabel id="label">Age</InputLabel>
-                        <Select  style={{ height: 40 }} labelId="label" id="select" value={quantity} onChange={handleChange} displayEmpty fullWidth>
+                    <InputLabel className={styles.label}>Attendees</InputLabel>
+                        <Select  style={{ height: 40}} labelId="label" id="select" value={quantity} onChange={handleChange} displayEmpty fullWidth >
                             <MenuItem value="" disabled>Select Attendees</MenuItem>
                             <MenuItem value={1}>One</MenuItem>
                             <MenuItem value={2}>Two</MenuItem>
                             <MenuItem value={3}>Three</MenuItem>
                             <MenuItem value={4}>Four</MenuItem>
                         </Select>
-                        {errors.name?.type === "required" && <p className={styles.error__pselect}>The field must be completed to continue</p> }
+            
                     </div>
-
-                    <input className={styles.submit} type="submit" value="Reserve" name='' onSubmit {...register("submit", {
-
-                            
-                        })}/>
+                        
+                    <button className={styles.Submit} type="submit" name=''>Reserve</button>
                         
                 </div>
-                
-                   
-                
             </form>
+
                 <div className={styles.card}>
                     <h3 className={styles.card__h3}>
                         We'll be expecting you!
