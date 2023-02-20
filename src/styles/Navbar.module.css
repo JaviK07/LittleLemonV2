@@ -140,6 +140,8 @@
         display: flex;
         width: 100%;
         
+      
+
         justify-content: center;
     }
     .links{
@@ -150,9 +152,6 @@
         display: flex;
 
         
-    }
-    .linksContainer{
-
     }
     .Name{
         font-size: 1.6em;

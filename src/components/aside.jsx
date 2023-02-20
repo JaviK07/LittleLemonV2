@@ -35,7 +35,7 @@ function Aside() {
 
                 <div className={styles.ravioliContainer}>
                     <div>
-                        <h3 className={styles.ravioli__h3}>Ravioli Sauce</h3>
+                        <h3 className={styles.ravioli__h3}>Ravioli</h3>
                         <p className={styles.ravioli__p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                         <button className={styles.ravioli__button}>Orden Now</button>
                         <DisplayRavioli />
